@@ -1,0 +1,304 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #626262;
+
+
+}
+
+/* c-css end */
+
+/* font ->*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@font-face {
+    src: url(assets/font/playfair_9pt-bold.ttf);
+    font-family: playfair_9pt-bold;
+}
+@font-face {
+    font-family: Playfair_9pt-Regular;
+    src: url(assets/font/Playfair_9pt-Regular.ttf);
+}
+
+/* header start */
+
+header{
+    padding: 10px 0;    
+    /* box-shadow: .5px .5px .5px .75px rgba(0, 0, 0, 0.5); */
+}
+
+.container{
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    overflow: hidden;
+   
+}
+.logo{    
+    
+    width: 10%;
+    float: left;
+
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+
+.menu{   
+    width: 75%;
+    float: right;
+ 
+   
+}
+ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin: 0 60px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.75);
+    
+    
+}
+.menu ul li:hover{
+    background-color: rgb(111, 111, 113);
+    box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.75);
+    transition: .33s linear;
+}
+
+.menu ul li a{
+    padding: 5px 10px;
+    display: inline-block;  
+    color: #626262;  
+    font-family: Playfair_9pt-Regular;
+    font-size: 16px;
+    text-decoration: none;    
+    text-transform: uppercase;
+    line-height: 22px;
+    border-bottom: 2px solid transparent;
+    transition: .33s linear;
+  
+}
+.menu ul li:last-child {
+    margin-right: 0;
+}
+.menu ul li a:hover, .menu ul li a:active{
+    color: #ddd;
+    border-bottom: 2px solid #fd4102;
+   
+}
+/* heder end */
+
+/* banner start */
+.b-img img{
+    width: 100%;
+}
+/* banner end */
+
+/* About Str */
+.about{
+    padding: 6% 0;
+} 
+.container2{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.c_link{
+    display: inline-block;
+    font-family: "Ubuntu", serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #b4ad9e;
+    line-height: 16px;
+    letter-spacing: .9px;
+
+}
+.c_h1{
+    padding: 15px 0 20px;
+    font-family: Playfair_9pt-Regular;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #626262;   
+
+}
+
+.c_text{  
+    display: inline-block;
+    font-family: Playfair_9pt-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #626262;
+}
+.commen{
+    margin-top: 45px;
+  
+}
+/* about end */
+
+/* feature start */
+
+.feature-area{
+   
+    width: 100%;
+   
+    overflow: hidden;
+
+}
+.f_content{    
+    width: 48%;
+    padding: 20px 0;
+    float: left;
+    
+}
+.f_content:nth-child(even){       
+    margin-left: 35px;
+    
+}
+.f_image img{
+    margin-bottom: 30px;
+    width: 100%;
+
+}
+.c_h2{
+    padding: 15px 0 20px;
+    font-family: Playfair_9pt-Regular;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #626262;   
+
+}
+.news_section {
+	margin: 60px 0;	
+	width: 100%;
+	background: #f0f0f0;
+   
+}
+	
+.news-part {
+	width: 40%;
+    height: 300px;
+	margin: 0 auto;
+    padding: 50px 0;
+	
+}
+
+.s_form {
+	width: 380px;
+	padding-top: 50px;
+    position: relative;
+}
+
+.s_form input {
+	width: 380px;
+	height: 40px;
+	border: 0;
+	border-bottom: 2px solid #626262;
+	background-color: transparent;
+	font-size: 16px;
+    padding-left: 5px;
+    padding-right: 30px;
+    font-family: Playfair_9pt-Regular;
+    
+}
+#news_email:focus {
+	outline: 0;
+}
+.s_form button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    top: 64px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+
+/* <!-- Sign up News Letter end--> */
+
+/* <!-- blog section Start--> */
+
+.blog{
+    /* text-align: center; */
+}
+
+.blog-content{   
+    width: 100%;
+   
+}
+.btn_learn{
+    text-align: center;
+}
+#em-btn{
+    margin: 100px 0;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #626262;
+    border-radius: 0;
+    font-family: Playfair_9pt-Regular;
+    font-size: 18px;
+    line-height: 26px;
+    transition: .9s linear;
+   
+
+}
+#em-btn:hover{
+    background-color: #626262;
+    color: #ddd;
+}
+/* footer start */
+
+footer{
+    background-color: #f0f0f0;
+    height: 60px;   
+
+}
+
+.f_area{
+    padding-top: 20px;
+}
+.policy {
+	float: inline-start;
+	padding: 6px;
+}
+.fs_link{
+    float: inline-end;
+    padding: 6px;
+}
+
+
+.policy ul li,
+.fs_link ul li{   
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+
+}
+.policy ul li a,
+.fs_link ul li a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
